@@ -31,21 +31,13 @@ agents/
 skills/
   <skill-name>/
     SKILL.md
-.github/
-  workflows/
-    sync-from-marketplace.yml
-SYNC.md                  # How sync from mcp-marketplace works
 ```
 
 ---
 
 ## Source of Truth
 
-Canonical skill content lives in [`amplitude/mcp-marketplace`](https://github.com/amplitude/mcp-marketplace) and is mirrored into this repo by CI. See [SYNC.md](./SYNC.md) for the design.
-
-**Direct edits to `skills/` here will be overwritten.** Submit changes upstream.
-
-Agent HQ-specific files (`plugin.json`, `agents/`, `.github/`, `README.md`, `SYNC.md`) are owned by this repo and edited directly.
+Canonical skill content lives in [`amplitude/mcp-marketplace`](https://github.com/amplitude/mcp-marketplace). For v0, skills are copied into this repo manually — submit skill changes upstream.
 
 ---
 
