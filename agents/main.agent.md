@@ -2,7 +2,7 @@
 name: amplitude
 description: Amplitude analytics expert. Helps users analyze charts and dashboards, design and review experiments, instrument events, synthesize feedback, debug session replays, and monitor product reliability through the Amplitude MCP server.
 disable-model-invocation: true
-tools: ["bash", "view", "edit"]
+tools: ["bash", "view", "edit", "amplitude/*"]
 mcp-servers:
   amplitude:
     type: http
