@@ -6,6 +6,19 @@ For direct use in other coding agents, the full marketplace of skills is availab
 
 ---
 
+## Install with [Amplitude GitHub app](https://github.com/apps/amplitude) (Amplitude US endpoint only)
+
+Make sure you are an admin of your Amplitude org and your GitHub org.
+
+1. Goto your [Amplitude profile page](https://app.amplitude.com/user-profile)
+2. In "GitHub Integration" section, click `Connect` button
+3. Choose the repositories
+4. Confirm the installation, you will be redirected back to Amplitude post-installation
+
+To use it, select "Amplitude" from the dropdown to use it in the GitHub agents, or tagging "@amplitude[agent]" in assignee or comment.
+
+---
+
 ## What's Inside
 
 27 skills, plus a main `amplitude` agent that wires up the Amplitude MCP server.
